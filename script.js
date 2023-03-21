@@ -1,11 +1,8 @@
-let admin;
-let name = "John!";
+const button = document.querySelector("button");
 
-admin = name;
+function greet() {
+  const name = "Mae";
+  console.log(name);
+}
 
-let ourPlanet = "Earth";
-let currentUserName = "";
-
-let x = 10 / 2;
-
-console.log(x);
+button.addEventListener();

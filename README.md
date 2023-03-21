@@ -64,3 +64,32 @@ const age = console.log(birthday);
 - are the building blocks of programming logic
 - +, -, \*, /, \*\*, %, ++, --
 - assignment (=), equality (==), strict equality (===)
+
+# JavaScript Fundamentals #2
+
+## Learning Objectives:
+
+1. Name the eight data types in JavaScript.
+2. Understand the difference between single(''), double(""), and backtick(``)quotes.
+3. Embed a variable/expression in a string.
+4. Understand what a method is.
+5. Understand what the comparison operators are.
+6. Name the three logical operators.
+7. Understand what conditionals are.
+8. Understand what nesting is.
+9. Understand what truthy and falsy values are.
+
+### JavaScript Data Types
+
+1. Strings - simply a piece of text
+2. Number - simply a piece of number like 0 or 1
+3. Boolean - true or false
+4. Null - empty
+5. Bigint - a very large number
+6. Undefined - it's not just defined yet, no value
+7. Symbol
+8. Object - object, array, date
+
+#### Homework
+
+1. https://javascript.info/comparison
