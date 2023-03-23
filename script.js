@@ -1,20 +1,14 @@
-let grade = prompt("What is your grade?");
+const number = (number) => {
+  return (x = number * number);
+};
 
-switch (true) {
-  case grade >= 90:
-    console.log("A");
-    break;
+console.log(number(5));
 
-  case grade >= 80:
-    console.log("B");
-    break;
+const isTodayThursday = () => {
+  const date = new Date();
+  let day = date.getDay();
 
-  case grade >= 70:
-    console.log("C");
-    break;
-  case grade >= 60:
-    console.log("D");
-    break;
-  default:
-    console.log("F");
-}
+  return day === 4;
+};
+
+console.log(isTodayThursday());
