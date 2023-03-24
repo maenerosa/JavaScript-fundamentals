@@ -1,14 +1,14 @@
-const number = (number) => {
-  return (x = number * number);
-};
-
-console.log(number(5));
-
-const isTodayThursday = () => {
-  const date = new Date();
-  let day = date.getDay();
-
-  return day === 4;
-};
-
-console.log(isTodayThursday());
+let input = Number(
+  prompt("Please enter the number you would like to Fizzbuzz")
+);
+for (i = 1; i <= input; i++) {
+  if (i % 3 === 0 && i % 5 === 0) {
+    console.log("FizzBuzz");
+  } else if (i % 5 === 0) {
+    console.log("Buzz");
+  } else if (i % 3 === 0) {
+    console.log("Fizz");
+  } else {
+    console.log(i);
+  }
+}
