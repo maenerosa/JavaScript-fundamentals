@@ -1,95 +1,30 @@
-# JavaScript Fundamentals
+# Understanding Errors
 
-## Learning objectives
+## Lesson Objectives:
 
-1. What is JavaScript?
-2. How do we declare a variable?
-3. Which variable keyword should you use when?
-4. What are the rules for naming variables?
-5. What are operators, operands, and operations?
-6. What is concatenation and what happens when you add numbers and strings together?
-7. What are the different types of operators in JavaScript?
-8. What are operator precedence values?
-9. What are the increment/decrement operators?
-10. What is the difference between == and ===?
-11. What is the difference between prefixing and postfixing them?
-12. What are assignment operators?
-13. What is the Unary Plus Operator?
+1. Name at least three kinds of Javascript errors
+2. Identify two parts of an error message that help you find where the error originates
+3. Be able to understand how to research and resolve errors
 
-### An Introduction to JavaScript
+### The Anatomy of an Error
 
-- JavaScript was initially created to “make web pages alive”.
-- "LiveScript"
-- ECMAScript
+- An error is a type of object built into the JS language, consisting of a name/type and a message. Errors contain crucial information that can assist you in locating the code responsible for the error, determining why you have this error, and resolving the error.
 
-### How to Run JavaScript Code?
+### Reference Error?
 
-### Variables
+- thrown when one refers to a variable that is not declared and/or initialized within the current scope
 
-- are used to store information / a "named storage" for data
-- An online shop ==> the information might include goods being sold and a shopping cart
-- A chat application ==> the information might include users, messages, and much more.
+### Common Types of Errors
 
-#### Limitations when naming variables in JavaScript
+- Syntax Error => when the code you are trying to run is not written correctly
+- Reference Error => trying to reference variable does not exist
+- Type Error => parameter passed to a function is incompatible with the type expected by that operator or function
+  => when attempting to modify a value that cannot be changed
+  => when attempting to use a value in an inappropriate way
 
-1. The name must contain only letters, digits, or the symbols $ and \_.
-2. The first character must not be a digit.
+### Tips for Resolving Errors
 
-- let ==> is a modern variable declaration
-- var ==> is an old-school variable declaration. Normally we don’t use it at all.
-- const ==> is like let, but the value of the variable can’t be changed.
-
-#### Exercises
-
-1. Working with variables
-
-- Declare two variables: admin and name.
-- Assign the value "John" to name.
-- Copy the value from name to admin.
-- Show the value of admin using alert.
-
-2. Giving the right name
-
-- Create a variable with the name of our planet. How would you name such a variable?
-- Create a variable to store the name of a current visitor to a website. How would you name that variable?
-
-3. Examine the following code:
-
-const birthday = '18.04.1982';
-
-const age = console.log(birthday);
-
-### Numbers
-
-- are the building blocks of programming logic
-- +, -, \*, /, \*\*, %, ++, --
-- assignment (=), equality (==), strict equality (===)
-
-# JavaScript Fundamentals #2
-
-## Learning Objectives:
-
-1. Name the eight data types in JavaScript.
-2. Understand the difference between single(''), double(""), and backtick(``)quotes.
-3. Embed a variable/expression in a string.
-4. Understand what a method is.
-5. Understand what the comparison operators are.
-6. Name the three logical operators.
-7. Understand what conditionals are.
-8. Understand what nesting is.
-9. Understand what truthy and falsy values are.
-
-### JavaScript Data Types
-
-1. Strings - simply a piece of text
-2. Number - simply a piece of number like 0 or 1
-3. Boolean - true or false
-4. Null - empty
-5. Bigint - a very large number
-6. Undefined - it's not just defined yet, no value
-7. Symbol
-8. Object - object, array, date
-
-#### Homework
-
-1. https://javascript.info/comparison
+1. Read the error carefully and try to understand it on your own.
+2. Next, Google the error! Chances are, you can find a fix or explanation on StackOverflow or in the documentation. If nothing else, you will receive more clarity as to why you are receiving this error.
+3. Use the debugger! As previously mentioned, the debugger is great for more involved troubleshooting, and is a critical tool for a developer. You can set breakpoints, view the value of any given variable at any point in your application’s execution, step through code line by line, and more! It is an extremely valuable tool and every programmer should know how to use it. This tutorial dives into the Chrome Debugger.
+4. Make use of the console! console.log() is a popular choice for quick debugging. For more involved troubleshooting, using the debugger might be more appropriate, but using console.log() is great for getting immediate feedback without needing to step through your functions.
