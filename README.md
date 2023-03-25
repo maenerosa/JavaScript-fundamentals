@@ -28,3 +28,41 @@
 2. Next, Google the error! Chances are, you can find a fix or explanation on StackOverflow or in the documentation. If nothing else, you will receive more clarity as to why you are receiving this error.
 3. Use the debugger! As previously mentioned, the debugger is great for more involved troubleshooting, and is a critical tool for a developer. You can set breakpoints, view the value of any given variable at any point in your application’s execution, step through code line by line, and more! It is an extremely valuable tool and every programmer should know how to use it. This tutorial dives into the Chrome Debugger.
 4. Make use of the console! console.log() is a popular choice for quick debugging. For more involved troubleshooting, using the debugger might be more appropriate, but using console.log() is great for getting immediate feedback without needing to step through your functions.
+
+# Arrays
+
+## Lesson Objectives:
+
+1. Using arrays
+2. Using built-in array methods
+3. Using loops
+
+### What is Array?
+
+- simply an ordered collection of items (Strig, numbers, or other things)
+
+### Built-in Array methods
+
+1. join - joins all array elements into a string
+2. pop - removes the last element from an array
+3. push - adds a new element to an array (at the end)
+4. shift - removes the first array element
+5. unshift - adds a new element to an array (at the beginning)
+6. array[0] = "newValue"
+7. length - count the total items in an array
+8. splice - start index and how many items to delete
+9. concat - combines two or more arrays
+10. flat - flattens an array
+11. slice - cut the arrays into parts
+
+### What is Loop/Looping?
+
+- we are iterating to each item in our array
+
+### What are the common array looping methods?
+
+1. traditional for loop
+2. for of
+3. forEach
+4. map
+5. filter

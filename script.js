@@ -23,3 +23,25 @@ function reverseString(str) {
 var string = "hello";
 
 console.log(reverseString(string));
+
+// for (let i = 0; i <= cats.length - 1; i++) {
+//   console.log(cats[i]);
+// }
+
+// for of loop
+// for (const cat of cats) {
+//   console.log(cat);
+// }
+
+// forEach
+// cats.forEach((cat) => {
+//   console.log(cat);
+// });
+
+// map
+// const catsToUpperCase = cats.map((cat) => cat.toUpperCase());
+
+// filter
+// const cats = ["Leopard", "Serval", "Jaguar", "Tiger", "Caracal", "Lion"];
+
+// const filtered = cats.filter((cat) => cat.startsWith("L"));
